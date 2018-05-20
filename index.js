@@ -11,5 +11,5 @@ function destructivelyUpdateObjectWithKeyAndValue(obj,key,value)
   obj ={
     prop: 1}
     
-  return obj.key= value
+  return obj["key"]: value
 }

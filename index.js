@@ -16,4 +16,8 @@ function deleteFromObjectByKey(obj,key)
   delete newestObj[key]
   return newestObj
 }
-function 
+function destructivelyDeleteFromObjectByKey(obj,key)
+{
+  delete obj[key]
+  return obj
+}
